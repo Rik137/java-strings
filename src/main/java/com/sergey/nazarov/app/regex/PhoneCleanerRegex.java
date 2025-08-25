@@ -29,7 +29,7 @@ public class PhoneCleanerRegex {
             String regexPhone = "7[0-9]{10}";
             boolean checkRightPhone = phone.matches(regexPhone);
             System.out.println(checkRightPhone ?
-                    phone : "Неверный формат номера");
+                    phone : "nvalid number format");
         }
     }
 }
